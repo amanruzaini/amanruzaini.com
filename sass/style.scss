@@ -1,0 +1,53 @@
+$white: #ffffff;
+$black: #000000;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  border-top: 5px solid red;
+}
+
+header {
+  height: 25vh;
+  // background: #fefefe;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  h1 {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}
+
+.body {
+  .card {
+    &-text {
+      padding: 15px;
+      h4,
+      p {
+        font-family: 'Roboto', sans-serif;
+      }
+      h4 {
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+      p {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+footer {
+  p {
+    // color: lighten($white, 0%);
+    font-weight: 300;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+.fas,
+.fab {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
