@@ -7,3 +7,7 @@ Hello, this is my repo for my personal website. With this latest update, hoping 
 - [x] Build website
 - [ ] Update in react
 - [ ] Elaborate more on case study
+
+#### Bonus
+
+- [ ] Skeleton screen
