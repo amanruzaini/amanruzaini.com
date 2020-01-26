@@ -7,11 +7,8 @@ class Header extends Component {
         <div className="container-fluid">
           <div className="row align-items-center justify-content-center header">
             <div className="offset-md-0 col-12 col-md-10">
-              <h1>Aman Ruzaini</h1>
-              <p>
-                I'm a visual designer based in Cyberjaya, Malaysia. <br />{' '}
-                Currently working at Astro Radio.
-              </p>
+              <h1>{this.props.name}</h1>
+              <p>{this.props.description}</p>
               <a href="mailto:amanruzaini@gmail.com">
                 <i className="fas fa-at"></i>
               </a>
@@ -32,4 +29,4 @@ class Header extends Component {
   }
 }
 
-export default Headers;
+export default Header;
